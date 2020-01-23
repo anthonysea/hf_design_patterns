@@ -2,9 +2,8 @@ package ch3;
 
 public class HouseBlend extends Beverage {
 
-    public HouseBlend(Size size) {
+    public HouseBlend() {
         this.description = "House Blend";
-        this.size = size;
     }
 
     public double cost() {
